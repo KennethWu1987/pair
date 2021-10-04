@@ -4,7 +4,7 @@
 # > conda install --file requirements.txt
 
 # If building docker image, comment out faiss-cpu (Dockerfile will install faiss separately. Otherwise will return "Illegal instruction" error)
-faiss-cpu 
+# faiss-cpu 
 streamlit
 tensorflow>=1.15
 numpy
